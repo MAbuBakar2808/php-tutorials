@@ -11,7 +11,7 @@ if (isset($_POST['text']) && isset($_POST['searchfor']) && isset($_POST['replace
 
 	if (!empty($text) && !empty($search) && !empty($replace)) {
 		
-		echo "OK.";
+		echo "OK..";
 }
 		else{
 
