@@ -1,8 +1,10 @@
 <?php
 
-session_start();
+	session_start();
 
-$_SESSION ['username'] = 'M.Abu bakar';
+	$_SESSION ['username'] = 'M.Abu bakar';
+
+	$_SESSION ['age'] = '21';
 
 
 
