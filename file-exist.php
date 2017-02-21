@@ -1,13 +1,17 @@
 <?php
 
-$filename = 'file1.txt';
+$filename = 'file2.txt';
 
 if (file_exists($filename)) {
 	
 	echo "File already exist";
 }else
 {
-	echo "Create the file";
+	$handle = fopen($filename, 'w');
+
+	fwrite($handle, "The second file.");
+	fclose($handle);
+
 }
 
 
